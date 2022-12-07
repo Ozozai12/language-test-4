@@ -1,0 +1,29 @@
+.header {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-style: italic;
+  font-size: 24px;
+}
+
+.navItem {
+  text-decoration: none;
+  color: black;
+}
+
+.langItem {
+  text-decoration: none;
+  color: grey;
+}
+
+.navItem:not(:last-child) {
+  margin-right: 20px;
+}
+
+.langItem:not(:last-child) {
+  margin-right: 20px;
+}
